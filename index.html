@@ -1,14 +1,31 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" ng-app="meu-site">
 <head>
     <meta charset="UTF-8">
     <title>Vinicius Bertoldi Rocha</title>
-    <link href="bower_components/angular-material/angular-material.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css">
+
 </head>
-<body>
+<body ng-cloak layout="column">
+
+    <md-toolbar style="background-color: #C0C0C0">
+        <h1 style="padding-left: 15px">Vinícius Bertoldi Rocha</h1>
+    </md-toolbar>
+    <div flex layout="row">
+        <div layout="column" style="padding-left: 15px; text-align: center" flex>
+            <h3>Site em Desenvolvimento</h3>
+        </div>
+    </div>
+
+    <!-- Dependências -->
     <script src="bower_components/angular/angular.min.js"></script>
     <script src="bower_components/angular-animate/angular-animate.min.js"></script>
     <script src="bower_components/angular-aria/angular-aria.min.js"></script>
     <script src="bower_components/angular-material/angular-material.min.js"></script>
+
+    <!-- Aplicação -->
+    <script src="app/app.module.js"></script>
+    <script src="app/core/core.module.js"></script>
 </body>
 </html>
