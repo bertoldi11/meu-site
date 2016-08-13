@@ -1,0 +1,10 @@
+{
+  "name": "meu-site",
+  "version": "0.0.1",
+  "license": "MIT",
+  "ignore": [],
+  "dependencies": {
+    "angular": "1.5.8",
+    "angular-material": "^1.0.9"
+  }
+}
